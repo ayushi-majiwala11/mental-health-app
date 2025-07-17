@@ -16,8 +16,6 @@ Original file is located at
 from textblob import download_corpora
 download_corpora.download_all()
 
-!python -m textblob.download_corpora
-
 import pandas as pd
 
 # Load dataset
